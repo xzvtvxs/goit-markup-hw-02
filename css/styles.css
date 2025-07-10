@@ -49,7 +49,7 @@ button {
 }
 
 .address {
-    font-style: nornal;
+    font-style: normal;
 }
 
 .address-link {
@@ -108,7 +108,7 @@ button {
     color: #2E2F42;
 }
 
-.features-descriptions {
+.features-description {
    line-height: 1.5;
    letter-spacing: 0.02em;
 }
