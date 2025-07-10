@@ -13,6 +13,10 @@ ul {
 a {
     text-decoration: none;
 }
+
+button {
+    cursor: pointer;
+}
 /* ----MAIN PAIGE CSS---- */
 
 /* HEADER */
@@ -39,12 +43,22 @@ a {
     color: #2E2F42;
 }
 
+.navigation-link:hover,
+.navigation-link:focus {
+    color: #404BBF;
+}
+
 .address-link {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+}
+
+.address-link:hover,
+.address-link:focus {
+    color: #404BBF;
 }
 
 /* ----HERO---- */
@@ -71,6 +85,12 @@ a {
     letter-spacing: 0.04em;
     color: #FFFFFF;
     background-color: #4D5AE5;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+    color: #FFFFFF;
+    background-color: #404BBF;
 }
 
 /* ----FEATURES---- */
