@@ -22,17 +22,17 @@ button {
 /* HEADER */
 
 .logo-link {
-    font-family: 'Ralewey', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.7;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2E2F42;
+    color: #4D5AE5;
 }
 
 .logo {
-    color: #4D5AE5;
+    color: #2E2F42;
 }
 
 .navigation-link {
@@ -46,6 +46,10 @@ button {
 .navigation-link:hover,
 .navigation-link:focus {
     color: #404BBF;
+}
+
+.address {
+    font-style: nornal;
 }
 
 .address-link {
@@ -67,7 +71,8 @@ button {
     background-color: #2E2F42;
 }
 
-.hero-h1 {
+.hero-header {
+    text-align: center;
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
@@ -95,7 +100,7 @@ button {
 
 /* ----FEATURES---- */
 
-.features-h3 {
+.features-header {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -103,15 +108,30 @@ button {
     color: #2E2F42;
 }
 
+.features-descriptions {
+   line-height: 1.5;
+   letter-spacing: 0.02em;
+}
+
 /* ----OUR TEAM---- */
 
-.our-team-h2 {
+.team-section {
+    background-color: #F4F4FD;
+}
+
+.our-team-header{
+    text-transform: capitalize;
+    text-align: center;
     font-weight: 700;
-    font-size: 32px;
+    font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
     color: #2E2F42;
 
+}
+
+.employee-card {
+    background-color: #FFFFFF;
 }
 
 .employee-name {
@@ -122,9 +142,17 @@ button {
    color: #2E2F42;
 }
 
+.position {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
 /* ----PORTFOLIO---- */
 
-.portfolio-h2 {
+.portfolio-header {
+    text-align: center;
+    text-transform: capitalize;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -132,12 +160,17 @@ button {
     color: #2E2F42;
 }
 
-.portfolio-h3 {
+.portfolio-card-header {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
+}
+
+.portfolio-card-description {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 /* ----FOOTER---- */
@@ -147,11 +180,16 @@ button {
 }
 
 .logo-link-footer{
+    font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    color: #4D5AE5;
+}
+
+.logo-fooret {
     color: #F4F4FD;
 }
 
@@ -162,3 +200,4 @@ button {
     letter-spacing: 0.02em;
     color: #F4F4FD;
 }
+
